@@ -1,6 +1,6 @@
 import os
 
-savascilar = {
+troops = {
     "KhuzaitNomad": 112 ,
     "KhuzaitTribalWarrior": 321 ,                                                                                                                      
     "KhuzaitRaider": 780 ,
@@ -92,9 +92,9 @@ savascilar = {
     "BattanianHorseman" : 2376
 
      }
-def getPrice(savasci,x):
+def getPrice(troop,x):
    os.system("cls")
-   print(savascilar[savasci]*x, "Dinar")
+   print(troops[troop]*x, "Dinar")
    main()
 
 def battanian():
@@ -132,37 +132,37 @@ def battanian():
                 
         else:
             if a == 1:
-                savasci = "BattanianVolunteer"
+                troop = "BattanianVolunteer"
             if a == 2:
-                savasci = "BattanianClanwarrior"
+                troop = "BattanianClanwarrior"
             if a == 3:
-                savasci = "BattanianTrainedWarrior"
+                troop = "BattanianTrainedWarrior"
             if a == 4:
-                savasci = "BattanianPickedWarrior"
+                troop = "BattanianPickedWarrior"
             if a == 5:
-                savasci = "BattanianOathsworn"
+                troop = "BattanianOathsworn"
             if a == 6:
-                savasci = "BattanianWoodrunner"
+                troop = "BattanianWoodrunner"
             if a == 7:
-                savasci = "BattanianRaider"
+                troop = "BattanianRaider"
             if a == 8:
-                savasci = "BattanianSkirmisher"
+                troop = "BattanianSkirmisher"
             if a == 9:
-                savasci = "BattanianFalxman"
+                troop = "BattanianFalxman"
             if a == 10:
-                savasci = "BattanianVeteranFalxman"
+                troop = "BattanianVeteranFalxman"
             if a == 11:
-                savasci = "BattanianVeteranSkirmisher"
+                troop = "BattanianVeteranSkirmisher"
             if a == 12:
-                savasci = "BattanianWildling"
+                troop = "BattanianWildling"
             if a == 13:
-                savasci = "BattanianMountedSkirmisher"
+                troop = "BattanianMountedSkirmisher"
             if a == 14:
-                savasci = "BattanianScout"
+                troop = "BattanianScout"
             if a == 15:
-                savasci = "BattanianHorseman"
+                troop = "BattanianHorseman"
             b = int(input("How many?: "))
-            getPrice(savasci, b)
+            getPrice(troop, b)
     except ValueError:
         print("Only numbers, please!")
 
@@ -201,36 +201,36 @@ def imperial():
                 
         else:
             if a == 1:
-                savasci = "ImperialRecruit"
+                troop = "ImperialRecruit"
             if a == 2:
-                savasci = "ImperialInfantryMan"
+                troop = "ImperialInfantryMan"
             if a == 3:
-                savasci = "ImperialTrainedInfantryMan"
+                troop = "ImperialTrainedInfantryMan"
             if a == 4:
-                savasci = "ImperialVeteranInfantryMan"
+                troop = "ImperialVeteranInfantryMan"
             if a == 5:
-                savasci = "ImperialLegionary"
+                troop = "ImperialLegionary"
             if a == 6:
-                savasci = "ImperialMenavliaton"
+                troop = "ImperialMenavliaton"
             if a == 7:
-                savasci = "ImperialEliteMenavliaton"
+                troop = "ImperialEliteMenavliaton"
             if a == 8:
-                savasci = "ImperialArcher"
+                troop = "ImperialArcher"
             if a == 9:
-                savasci = "ImperialTrainedArcher"
+                troop = "ImperialTrainedArcher"
             if a == 10:
-                savasci = "ImperialVeteranArcher"
+                troop = "ImperialVeteranArcher"
             if a == 11:
-                savasci = "ImperialPalatineGuard"
+                troop = "ImperialPalatineGuard"
             if a == 12:
-                savasci = "ImperialBucellarii"
+                troop = "ImperialBucellarii"
             if a == 13:
-                savasci = "ImperialCrossbowman"
+                troop = "ImperialCrossbowman"
             if a == 14:
-                savasci = "ImperialSergeantCrossbowman"
+                troop = "ImperialSergeantCrossbowman"
             
             b = int(input("How much?: "))
-            getPrice(savasci, b)
+            getPrice(troop, b)
     except ValueError:
         print("Only numbers, please!")
 
@@ -269,37 +269,37 @@ def aserai():
                 
         else:
             if a == 1:
-                savasci = "AseraiRecruit"
+                troop = "AseraiRecruit"
             if a == 2:
-                savasci = "AseraiTribesman"
+                troop = "AseraiTribesman"
             if a == 3:
-                savasci = "AseraiSkirmisher"
+                troop = "AseraiSkirmisher"
             if a == 4:
-                savasci = "AseraiArcher"
+                troop = "AseraiArcher"
             if a == 5:
-                savasci = "AseraiMasterArcher"
+                troop = "AseraiMasterArcher"
             if a == 6:
-                savasci = "AseraiFootman"
+                troop = "AseraiFootman"
             if a == 7:
-                savasci = "AseraiInfantry"
+                troop = "AseraiInfantry"
             if a == 8:
-                savasci = "AseraiVeteranInfantry"
+                troop = "AseraiVeteranInfantry"
             if a == 9:
-                savasci = "AseraiMamelukeSoldier"
+                troop = "AseraiMamelukeSoldier"
             if a == 10:
-                savasci = "AseraiMamelukeRegular"
+                troop = "AseraiMamelukeRegular"
             if a == 11:
-                savasci = "AseraiMamelukeCavalry"
+                troop = "AseraiMamelukeCavalry"
             if a == 12:
-                savasci = "AseraiMamelukeHeavyCavalry"
+                troop = "AseraiMamelukeHeavyCavalry"
             if a == 13:
-                savasci = "AseraiMamelukeAxeman"
+                troop = "AseraiMamelukeAxeman"
             if a == 14:
-                savasci = "AseraiMamelukeGuard"
+                troop = "AseraiMamelukeGuard"
             if a == 15:
-                savasci = "AseraiMamelukePalaceGuard"
+                troop = "AseraiMamelukePalaceGuard"
             b = int(input("How many?: "))
-            getPrice(savasci, b)
+            getPrice(troop, b)
     except ValueError:
         print("Only numbers, please!")
 
@@ -338,37 +338,37 @@ def sturgia():
                 
         else:
             if a == 1:
-                savasci = "SturgianRecruit"
+                troop = "SturgianRecruit"
             if a == 2:
-                savasci = "SturgianWarrior"
+                troop = "SturgianWarrior"
             if a == 3:
-                savasci = "SturgianSoldier"
+                troop = "SturgianSoldier"
             if a == 4:
-                savasci = "SturgianSpearman"
+                troop = "SturgianSpearman"
             if a == 5:
-                savasci = "SturgianShockTroop"
+                troop = "SturgianShockTroop"
             if a == 6:
-                savasci = "SturgianVeteranWarrior"
+                troop = "SturgianVeteranWarrior"
             if a == 7:
-                savasci = "SturgianBerserker"
+                troop = "SturgianBerserker"
             if a == 8:
-                savasci = "SturgianUlfhednar"
+                troop = "SturgianUlfhednar"
             if a == 9:
-                savasci = "SturgianWoodsman"
+                troop = "SturgianWoodsman"
             if a == 10:
-                savasci = "SturgianBrigand"
+                troop = "SturgianBrigand"
             if a == 11:
-                savasci = "SturgianHunter"
+                troop = "SturgianHunter"
             if a == 12:
-                savasci = "SturgianHardenedBrigand"
+                troop = "SturgianHardenedBrigand"
             if a == 13:
-                savasci = "SturgianHorseRaider"
+                troop = "SturgianHorseRaider"
             if a == 14:
-                savasci = "SturgianArcher"
+                troop = "SturgianArcher"
             if a == 15:
-                savasci = "SturgianVeteranBowman"
+                troop = "SturgianVeteranBowman"
             b = int(input("How many?: "))
-            getPrice(savasci, b)
+            getPrice(troop, b)
     except ValueError:
         print("Only numbers, please!")
 
@@ -407,37 +407,37 @@ def vlandian():
                 
         else:
             if a == 1:
-                savasci = "VlandianRecruit"
+                troop = "VlandianRecruit"
             if a == 2:
-                savasci = "VlandianLevyCrossbowman"
+                troop = "VlandianLevyCrossbowman"
             if a == 3:
-                savasci = "VlandianCrossbowman"
+                troop = "VlandianCrossbowman"
             if a == 4:
-                savasci = "VlandianHardenedCrossbowman"
+                troop = "VlandianHardenedCrossbowman"
             if a == 5:
-                savasci = "VlandianSharpshooter"
+                troop = "VlandianSharpshooter"
             if a == 6:
-                savasci = "VlandianFootman"
+                troop = "VlandianFootman"
             if a == 7:
-                savasci = "VlandianSpearman"
+                troop = "VlandianSpearman"
             if a == 8:
-                savasci = "VlandianBillman"
+                troop = "VlandianBillman"
             if a == 9:
-                savasci = "VlandianVoulgier"
+                troop = "VlandianVoulgier"
             if a == 10:
-                savasci = "VlandianPikeman"
+                troop = "VlandianPikeman"
             if a == 11:
-                savasci = "VlandianInfantry"
+                troop = "VlandianInfantry"
             if a == 12:
-                savasci = "VlandianLightCavalry"
+                troop = "VlandianLightCavalry"
             if a == 13:
-                savasci = "VlandianVanguard"
+                troop = "VlandianVanguard"
             if a == 14:
-                savasci = "VlandianSwordsman"
+                troop = "VlandianSwordsman"
             if a == 15:
-                savasci = "VlandianSergeant"
+                troop = "VlandianSergeant"
             b = int(input("How many?: "))
-            getPrice(savasci, b)
+            getPrice(troop, b)
     except ValueError:
         print("Only numbers, please!")
     
@@ -478,37 +478,37 @@ def khuzait():
                 
         else:
             if a == 1:
-                savasci = "KhuzaitNomad"
+                troop = "KhuzaitNomad"
             if a == 2:
-                savasci = "KhuzaitTribalWarrior"
+                troop = "KhuzaitTribalWarrior"
             if a == 3:
-                savasci = "KhuzaitRaider"
+                troop = "KhuzaitRaider"
             if a == 4:
-                savasci = "KhuzaitHorseArcher"
+                troop = "KhuzaitHorseArcher"
             if a == 5:
-                savasci = "KhuzaitHeavyHorseArcher"
+                troop = "KhuzaitHeavyHorseArcher"
             if a == 6:
-                savasci = "KhuzaitHorseMan"
+                troop = "KhuzaitHorseMan"
             if a == 7:
-                savasci = "KhuzaitLancer"
+                troop = "KhuzaitLancer"
             if a == 8:
-                savasci = "KhuzaitHeavyLancer"
+                troop = "KhuzaitHeavyLancer"
             if a == 9:
-                savasci = "KhuzaitFootman"
+                troop = "KhuzaitFootman"
             if a == 10:
-                savasci = "KhuzaitArcher"
+                troop = "KhuzaitArcher"
             if a == 11:
-                savasci = "KhuzaitArcher"
+                troop = "KhuzaitArcher"
             if a == 12:
-                savasci = "KhuzaitMarksman"
+                troop = "KhuzaitMarksman"
             if a == 13:
-                savasci = "KhuzaitSpearman"
+                troop = "KhuzaitSpearman"
             if a == 14:
-                savasci = "KhuzaitSpearInfantry"
+                troop = "KhuzaitSpearInfantry"
             if a == 15:
-                savasci = "KhuzaitDarkhan"
+                troop = "KhuzaitDarkhan"
             b = int(input("How many?: "))
-            getPrice(savasci, b)
+            getPrice(troop, b)
     except ValueError:
         print("Only numbers, please!")
         
